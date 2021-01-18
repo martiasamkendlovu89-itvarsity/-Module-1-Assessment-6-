@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    
+    <body>
+        <div id="menu">
+    <a href ="Home">Home</a>
+    <a href ="About us">About Us</a>
+    <a href= "Contact Us">Contact Us</a>        
+        </div>
+        
+        
+        <h2>Contact Us</h2>
+        <p>email: customercareservices@beatyskincareline.com</p>
+        <p>phone number: 031 912 3030</p>
+    </body>
+    
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #E6E6FA;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FF00FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FF00FF;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #E6E6FA;
+  padding: 20px;
+}
+</style>
+    
+    
+    <div class="container">
+  <form action="/action_page.php">
+    <label for="name">Name</label>
+    <input type="text" id="surname" name="surname" placeholder="surname..">
+
+    <label for="surname">Surname</label>
+    <input type="text" id="surname" name="surname" placeholder="surname..">
+      
+      <label for="email">Email address</label>
+      <input type="text" id="email" name="Email address" placeholder="Email address">
+
+    <label for="province">Province</label>
+    <select id="province" name="province">
+      <option value="kwa-zulu natal">Kwa-Zulu Natal</option>
+      <option value="gauteng">Gauteng</option>
+      <option value="limpompo">Limpompo</option>
+        <option value="eastern cape">Eastern Cape</option>
+        <option value="western cape">Western Cape</option>
+        <option value="northern cape">Northern Cape</option>
+        <option value="free state">Free State</option>
+        <option value="mpumalanga">Mpumalanga</option>
+        <option value="north west">North West</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+    </head>
+</html>
